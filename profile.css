@@ -1,0 +1,19 @@
+header {
+    background-color: rgb(69, 99, 77);
+    height: 90px;
+
+}
+
+.header1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.profileImg {
+    height: 400px;
+    margin-left:20%;
+}
+
