@@ -1,7 +1,13 @@
 const favColorBtn = document.querySelector('#color');
 const placeBtn = document.querySelector("#place");
-const favRitText = document.querySelector("#ritual")
+const ritualBtn = document.querySelector('#ritual')
 
-function favRitText (event){
-console.log ("Myfavorite color is pink")
-}
+favColorBtn.addEventListener('click', () => {
+    alert('My favorite color is blue')
+})
+place.addEventListener('click', () => {
+    alert('My favorite place is cafes')
+})
+ritual.addEventListener('click', () => {
+    alert('My favorite ritual is going to sleep')
+})
